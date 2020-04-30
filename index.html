@@ -1,25 +1,31 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>MovieInfo</title>
-    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+    <title>Video-app</title>
+    	<!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
+  </head>
+	<!-- Background colour -->
+ <body style= "background-color: silver">   
+<body>
   <body>
     <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">MovieInfo</a>
+            <li class="nav-item"><a class="nav-link" href="index.html">Video-app</a></li>
         </div>
       </div>
     </nav>
 
     <div class="container">
     	<div class="jumbotron">
-	    	<h3 class="text-center">Search For Any Movie</h3>
+	    	<h4 class="text-center">Search For Any Videos</h4>
 	    	<form id="searchForm">
-	    		<input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+	    		<input type="text" class="form-control" id="searchText" placeholder="Search Videos.">
 	    	</form>
 	    </div>
     </div>
@@ -28,11 +34,12 @@
       <div id="movies" class="row"></div>
     </div>
 
-    <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    <script  
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
   crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
   <script src="js/main.js"></script>
   </body>
 </html>
+

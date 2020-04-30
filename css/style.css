@@ -1,13 +1,13 @@
-#movies img, #movie img{
-  width:100%;
+#videos img, #video img{
+  width:90%;
 }
 
-@media(min-width:960px){
-  #movies .col-md-3 .well{
-    height: 390px;
+@media(min-width:860px){
+  #videos .col-md-3 .well{
+    height: 290px;
   }
 
-  #movies .col-md-3 img{
+  #videos .col-md-3 img{
     height:240px;
   }
 }
